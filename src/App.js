@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App  font-poppins">
+    <div className="App  font-poppins px-6 md:px-12 lg:px-20">
       <Navbar />
       <HeroSection />
       <ShortenItSection />

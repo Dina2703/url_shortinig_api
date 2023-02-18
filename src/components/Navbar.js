@@ -4,7 +4,7 @@ import logo from "../images/logo.svg";
 function Navbar() {
   return (
     <section id="navbar_section">
-      <nav className="container h-20 mx-auto flex items-center px-6 md:px-24  justify-between">
+      <nav className=" h-20 mx-auto flex items-center  justify-between">
         <a href="#" className="mr-8">
           <img src={logo} alt="logo" />
         </a>

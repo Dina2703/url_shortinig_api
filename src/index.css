@@ -4,11 +4,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
 
-#heroImg {
+#heroImg::after {
+  position: absolute;
+  content: "";
   background-image: url(../public/illustration-working.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top 20px left 60px;
-  width: 70%;
-  height: 90%;
+  background-size: 100% 100%;
+  top: 0;
+  left: 60px;
+  width: 130%;
+  height: 100%;
 }
