@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: "Poppins", sans-serif;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+#heroImg {
+  background-image: url(../public/illustration-working.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 20px left 60px;
+  width: 70%;
+  height: 90%;
 }
