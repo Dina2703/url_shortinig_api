@@ -26,6 +26,15 @@ module.exports = {
       fontFamily: {
         poppins: "Poppins, sans-serif",
       },
+      fontSize: {
+        "6xl": [
+          "4rem",
+          {
+            lineHeight: "4.2rem",
+            letterSpacing: "-0.01em",
+          },
+        ],
+      },
     },
   },
   plugins: [],

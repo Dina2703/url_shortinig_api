@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App  font-poppins px-6 md:px-12 lg:px-20">
+    <div className="App  font-poppins px-6 md:px-10 lg:px-16 max-w-6xl lg:mx-auto overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <ShortenItSection />
