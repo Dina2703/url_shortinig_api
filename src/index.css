@@ -22,6 +22,21 @@ body {
   height: 80%;
 }
 
+#stats::after {
+  position: absolute;
+  content: "";
+  top: 10rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  transform: rotate(90deg);
+  height: 10px;
+  background-color: hsl(180, 66%, 49%);
+  z-index: 1;
+}
+
 @media only screen and (max-width: 768px) {
   #heroImg::after {
     top: 0;
