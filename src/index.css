@@ -4,6 +4,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
 
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 #heroImg::after {
   position: absolute;
   content: "";
