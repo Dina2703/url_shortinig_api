@@ -30,8 +30,7 @@ body {
   right: 0;
   left: 0;
   margin: auto;
-  width: 100%;
-  transform: rotate(90deg);
+  width: 50%;
   height: 10px;
   background-color: hsl(180, 66%, 49%);
   z-index: 1;
@@ -42,5 +41,10 @@ body {
     top: 0;
     left: 0;
     height: 100%;
+  }
+
+  #stats::after {
+    transform: rotate(90deg);
+    width: 100%;
   }
 }
