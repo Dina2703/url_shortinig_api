@@ -6,7 +6,7 @@ import iconFullyCustomizable from "../images/icon-fully-customizable.svg";
 function StatsSection() {
   return (
     <div className="bg-slate-100 px-6 pb-16 relative" id="stats">
-      <div className="max-w-6xl lg:mx-auto  px-3 md:px-5 lg:px-12 flex flex-col justify-center text-center my-3 relative z-10">
+      <div className="max-w-6xl lg:mx-auto  px-3 md:px-5 lg:px-12 flex flex-col justify-center text-center mb-3 relative z-10">
         <div className="mt-7 mb-14">
           <h1 className="font-bold pt-5 md:text-xl text-[22px] lg:text-2xl">
             Advanced Statistics
