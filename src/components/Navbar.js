@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <section
       id="navbar_section "
-      className="px-3 md:px-5 lg:px-12 max-w-6xl lg:mx-auto"
+      className="px-3 md:px-5 lg:px-12 max-w-5xl lg:mx-auto"
     >
       <nav
         className=" h-20 mx-auto flex items-center  justify-between "

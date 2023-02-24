@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="h-fit md:h-[75svh]  px-3 md:px-5 lg:px-12 max-w-6xl lg:mx-auto "
+      className="h-fit md:h-[75svh]  px-3 md:px-5 lg:px-12 max-w-5xl lg:mx-auto "
     >
       <div className="h-full flex flex-col items-start md:justify-between  md:flex-row-reverse ">
         <div
