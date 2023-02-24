@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import logo from "../images/logo.svg";
 
 function Navbar() {
@@ -8,12 +8,36 @@ function Navbar() {
     setIsMenuOpen((prev) => !prev);
   };
 
+  //Closing the dropdown menu when clicked outside
+
+  const ref = useRef();
+
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      // If the menu is open and the clicked target is not within the menu,
+      // then close the menu
+      if (isMenuOpen && ref.current && !ref.current.contains(e.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", checkIfClickedOutside);
+
+    return () => {
+      // Cleanup the event listener
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+  }, [isMenuOpen]);
+
   return (
     <section
       id="navbar_section "
       className="px-3 md:px-5 lg:px-12 max-w-6xl lg:mx-auto"
     >
-      <nav className=" h-20 mx-auto flex items-center  justify-between ">
+      <nav
+        className=" h-20 mx-auto flex items-center  justify-between "
+        ref={ref}
+      >
         <a href="#" className="mr-8">
           <img src={logo} alt="logo" />
         </a>
