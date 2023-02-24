@@ -76,7 +76,6 @@ function Navbar() {
             <li className="cursor-pointer hover:text-cyan">Features</li>
             <li className="cursor-pointer hover:text-cyan">Pricing</li>
             <li className="cursor-pointer hover:text-cyan">Resources</li>
-            <li className="cursor-pointer hover:text-cyan">Features</li>
 
             <li className="border-t-[.5px] border-grayishViolet  w-full text-center pt-[16px] mt-[16px] cursor-pointer hover:text-cyan">
               Login

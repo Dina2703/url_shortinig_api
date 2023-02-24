@@ -49,7 +49,7 @@ body {
   z-index: 1;
 }
 
-#input_container::after {
+#input_container {
   background-image: url(../public/bg-shorten-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
