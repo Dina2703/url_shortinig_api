@@ -18,12 +18,13 @@ function ShortenItSection() {
   // get input value on enter
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      URLShortner();
+      setInputValue(e.target.value);
     }
   };
 
   const URLShortner = async (e) => {
     e.preventDefault();
+
     const URL = `https://api.shrtco.de/v2/shorten?url=`;
 
     if (inputValue.length <= 0) {
