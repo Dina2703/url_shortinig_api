@@ -12,9 +12,9 @@ function Footer() {
       className="w-full py-12 md:pt-0 md:pb-12 bg-[#1a001a]  text-white  "
     >
       <div className="flex flex-col gap-7 md:gap-0 md:flex-row items-center md:items-start md:justify-between md:pt-14 md:px-10 max-w-3xl lg:mx-auto ">
-        <a href="#">
+        <button>
           <img src={logo2} alt="logo" className="  h-5" />
-        </a>
+        </button>
         <ul className="text-center">
           <li className="font-bold text-sm pb-3 ">Features</li>
           <li className="text-grayishViolet pb-2 text-[16px] hover:text-cyan cursor-pointer">
